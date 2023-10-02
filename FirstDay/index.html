@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEY DRUM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="keys" data-key="65"> <kbd>A</kbd> 
+            <span class="sound">clap</span>
+        </div>
+        
+        <div class="keys" data-key="83">
+            <kbd>S</kbd> 
+            <span class="sound">b-drum</span>
+        </div>
+        <div class="keys" data-key="68">
+            <kbd>D</kbd> 
+            <span class="sound">plate</span>
+        </div>
+        <div class="keys" data-key="70">
+            <kbd>F</kbd> 
+            <span class="sound">wooden</span>
+        </div>
+        <div class="keys" data-key="71">
+            <kbd>G</kbd> 
+            <span class="sound">ddrum</span>
+        </div>
+        <div class="keys" data-key="72">
+            <kbd>H</kbd> 
+            <span class="sound">plates</span>
+        </div>
+        <div class="keys" data-key="74">
+            <kbd>J</kbd> 
+            <span class="sound">2-drum</span>
+        </div>
+        <div class="keys" data-key="75">
+            <kbd>K</kbd> 
+            <span class="sound">m-plate</span>
+        </div>
+        <div class="keys" data-key="76">
+            <kbd>L</kbd> 
+            <span class="sound">1-drum</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./sounds/clap.mp3"></audio>
+    <audio data-key="83" src="./sounds/bassdrum.mp3"></audio>
+    <audio data-key="68" src="./sounds/plates.mp3"></audio>
+    <audio data-key="70" src="./sounds/wood.mp3"></audio>
+    <audio data-key="71" src="./sounds/ddrum.mp3"></audio>
+    <audio data-key="72" src="./sounds/plates2.mp3"></audio>
+    <audio data-key="74" src="./sounds/twodrum.mp3"></audio>
+    <audio data-key="75" src="./sounds/mixplate.mp3"></audio>
+    <audio data-key="76" src="./sounds/onedrum.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
